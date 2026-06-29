@@ -1,4 +1,3 @@
-# DecoR
 <div align="center">
 
 # 🧭 DecoR
@@ -13,11 +12,6 @@
 
 <p>
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/vLLM-FDB515?style=flat-square&logo=v&logoColor=black" alt="vLLM">
-  <img src="https://img.shields.io/badge/VERL-GRPO-6f42c1?style=flat-square" alt="VERL">
-  <img src="https://img.shields.io/badge/BGE--M3-Embeddings-ff6f00?style=flat-square" alt="BGE-M3">
-  <img src="https://img.shields.io/badge/FAISS-Index-00599C?style=flat-square&logo=meta&logoColor=white" alt="FAISS">
 </p>
 
 <p>
