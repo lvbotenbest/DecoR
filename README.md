@@ -6,11 +6,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/Paper-ACL%202026-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper">
-  <img src="https://img.shields.io/badge/Venue-ACL%202026%20Long-2b5797?style=for-the-badge" alt="Venue">
   <img src="https://img.shields.io/badge/License-MIT-3da639?style=for-the-badge" alt="License">
-</p>
-
-<p>
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
 </p>
 
