@@ -1,0 +1,46 @@
+{
+    "_description": "同义词映射表，key为标准词，value为同义词列表",
+    "_updated_at": "",
+    "_source_corpus": "",
+    
+    "synonym_groups": {
+        "mathematics": ["math", "maths", "mathematical"],
+        "arithmetic": ["calculation", "calculations", "computing", "computation"],
+        "algebra": ["algebraic"],
+        "geometry": ["geometric", "geometrical"],
+        "statistics": ["statistical"],
+        "probability": ["probabilistic"],
+        
+        "reasoning": ["reason", "deduction", "inference", "logical inference", "deductive reasoning"],
+        "logic": ["logical", "logical thinking"],
+        "problem solving": ["problem-solving", "solving problems", "solution finding"],
+        "critical thinking": ["critical analysis", "analytical thinking"],
+        
+        "coding": ["programming", "code", "software development"],
+        "algorithm": ["algorithms", "algorithmic"],
+        "data structure": ["data structures"],
+        
+        "writing": ["composition", "text generation", "content writing"],
+        "translation": ["translating", "language translation"],
+        "summarization": ["summarizing", "summary", "abstracting"],
+        "reading comprehension": ["text understanding", "comprehension"],
+        
+        "computer science": ["cs", "computing science", "informatics"],
+        "physics": ["physical science"],
+        "chemistry": ["chemical science"],
+        "biology": ["biological science", "life science"],
+        "medicine": ["medical", "healthcare", "medical science"],
+        "finance": ["financial", "economics", "economy"],
+        "law": ["legal", "jurisprudence"],
+        "history": ["historical"],
+        "philosophy": ["philosophical"],
+        "psychology": ["psychological"],
+        
+        "general knowledge": ["common knowledge", "basic knowledge", "world knowledge"],
+        "information extraction": ["info extraction", "data extraction"],
+        "multi-step planning": ["planning", "multi-step reasoning", "step-by-step"],
+        "basic arithmetic": ["elementary arithmetic", "simple arithmetic", "basic math"],
+        "basic mathematics": ["elementary mathematics", "simple mathematics", "elementary math"]
+    }
+}
+

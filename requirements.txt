@@ -1,0 +1,23 @@
+# Core
+numpy
+tqdm
+openai>=1.0.0
+requests
+
+# Stage 2 — semantic fine-ranking (Substage B) & retrieval index
+sentence-transformers
+FlagEmbedding          # BGE-M3 encoder used in the paper
+faiss-cpu              # use faiss-gpu if a GPU is available
+
+# Stage 2 — Log Evaluator GRPO data prep
+datasets
+pyarrow
+
+# Reporting / tables (optional)
+pandas
+openpyxl
+
+# Log Evaluator (GRPO) training is done with VERL, installed separately:
+#   https://github.com/volcengine/verl
+# Inference serving uses vLLM:
+#   pip install vllm
