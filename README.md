@@ -81,7 +81,15 @@ retraining the router.
 ```
 decor_code/
 ├── README.md
+├── LICENSE                              # MIT
 ├── requirements.txt
+├── .gitignore
+│
+├── demo/                                # 🚀 one-command, fully-offline end-to-end demo
+│   ├── run_demo.sh                      #   `bash demo/run_demo.sh` — runs the whole pipeline
+│   ├── run_pipeline.py                  #   orchestrator: Stage 1 → 2A/B → 2C → 3, with offline fallbacks
+│   ├── sample_queries.jsonl            #   10 sample queries (decomposition + gold eval label)
+│   └── README.md                        #   demo walkthrough (real-service vs. offline modes)
 │
 ├── stage1_query_deconstruction/         # Stage 1: q → {S,K,D} capability profile
 │   ├── gen_sft_data_gpt.py              #   generate SFT data via a frontier model (GPT-5)
@@ -155,6 +163,20 @@ Categories are **not** predefined — the deconstructor generates them per query
 ---
 
 ## 🚀 End-to-end usage
+
+### ⚡ Quick demo (fully offline)
+
+Run the **whole pipeline** — decomposition → 3-stage sifting → allocation — on a
+sample dataset with no API key or GPU (uses the shipped corpus + labels):
+
+```bash
+pip install -r requirements.txt
+bash demo/run_demo.sh
+```
+
+This chains all four stages and prints the routed model per query plus the
+routed accuracy vs. ground truth. See [`demo/README.md`](demo/README.md) for how
+to swap in real services (embedding API, vLLM Log Evaluator) or your own data.
 
 ### 0. Install
 
