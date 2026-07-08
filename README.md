@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Paper-ACL%202026-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper">
   <img src="https://img.shields.io/badge/License-MIT-3da639?style=for-the-badge" alt="License">
   <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-FFD21E?style=for-the-badge" alt="Dataset">
-  <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Model-FFD21E?style=for-the-badge" alt="Model">
+  <!-- <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Model-FFD21E?style=for-the-badge" alt="Model"> -->
 </p>
 
 <p>
@@ -22,7 +22,7 @@
   <a href="#-pipeline-overview"><b>🛠 Pipeline</b></a> &nbsp;|&nbsp;
   <a href="#-end-to-end-usage"><b>🚀 Usage</b></a> &nbsp;|&nbsp;
   <a href="https://huggingface.co/datasets/lvpokoto/CodaSet"><b>🤗 Dataset</b></a> &nbsp;|&nbsp;
-  <a href="https://huggingface.co/lvpokoto/decor"><b>🤗 Model</b></a> &nbsp;|&nbsp;
+  <!-- <a href="https://huggingface.co/lvpokoto/decor"><b>🤗 Model</b></a> &nbsp;|&nbsp; -->
   <a href="#-citation"><b>📌 Citation</b></a>
 </p>
 
