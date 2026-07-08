@@ -1,13 +1,14 @@
 <div align="center">
 
-# 🧭 DecoR
+#  DecoR
 
 ### Beyond Query Memorization: LLM Routing with Query Decomposition and Historical Matching
 
 <p>
   <img src="https://img.shields.io/badge/Paper-ACL%202026-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper">
   <img src="https://img.shields.io/badge/License-MIT-3da639?style=for-the-badge" alt="License">
-  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-FFD21E?style=for-the-badge" alt="Dataset">
+  <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Model-FFD21E?style=for-the-badge" alt="Model">
 </p>
 
 <p>
@@ -20,6 +21,8 @@
   <a href="https://aclanthology.org/2026.acl-long.1852/"><b>📄 Paper</b></a> &nbsp;|&nbsp;
   <a href="#-pipeline-overview"><b>🛠 Pipeline</b></a> &nbsp;|&nbsp;
   <a href="#-end-to-end-usage"><b>🚀 Usage</b></a> &nbsp;|&nbsp;
+  <a href="https://huggingface.co/datasets/lvpokoto/CodaSet"><b>🤗 Dataset</b></a> &nbsp;|&nbsp;
+  <a href="https://huggingface.co/lvpokoto/decor"><b>🤗 Model</b></a> &nbsp;|&nbsp;
   <a href="#-citation"><b>📌 Citation</b></a>
 </p>
 
