@@ -425,7 +425,9 @@ class APIEmbedding:
             batch_size: 每次 API 请求的最大样本数
         """
         import os
-        self.api_key = api_key or os.environ.get("DEEPINFRA_API_KEY", "HLwaq5OfA0dhif7NLl7afm7kUFuP0toS")
+        self.api_key = api_key or os.environ.get("DEEPINFRA_API_KEY", "") 
+        #To whoever used our API key: Please contact me via email. You have fraudulently used $100 of our balance. 
+        #As a researcher, you should know better than to steal.
         self.base_url = base_url
         self.model = model
         self.batch_size = batch_size
