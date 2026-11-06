@@ -60,7 +60,7 @@ class QianfanRequest(object):
                 "enable_thinking": is_thinking
             }, ensure_ascii=False)
 
-        response = requests.request("POST", self.url, headers=self.headers, data=payload.encode("utf-8"))
+        response = requests.request("POST", self.url, headers=self.headers, data=payload.encode("utf-8"), timeout=120)
        
         return response.text
 
